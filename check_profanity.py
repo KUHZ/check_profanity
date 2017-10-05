@@ -1,3 +1,6 @@
 def read_text():
-     open("/Users/gu/Desktop/Python/check_profanity/movie_quotes.txt")
+     quotes = open("/Users/gu/Desktop/Python/check_profanity/movie_quotes.txt")
+     contents_of_file = quotes.read()
+     print(contents_of_file)
+     quotes.close()
 read_text()
